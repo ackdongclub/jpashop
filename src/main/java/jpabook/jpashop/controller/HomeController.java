@@ -13,5 +13,6 @@ public class HomeController {
     public String home() {
         log.info("home controller");
         return "home";
+        //home화면으로 이동(이게 첫 시작 화면이 된다)
     }
 }
