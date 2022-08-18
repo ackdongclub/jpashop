@@ -22,7 +22,7 @@ public abstract class Item {
 
     private String name;
     private int price;
-    private int stockQuantity; //stockQuantity를 변경하려면 setter로 가져오지 말고 비즈니스 로직을 사용해서 변경시킨
+    private int stockQuantity; //stockQuantity를 변경하려면 setter로 가져오지 말고 비즈니스 로직을 사용해서 변경시킨다
 
     @ManyToMany(mappedBy = "items")
     private List<Category> cartegories = new ArrayList<>();
